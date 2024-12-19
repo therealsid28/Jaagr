@@ -6,7 +6,7 @@ function App() {
   const [menuState, setmenuState] = useState(true);
   return (
     <>
-      <div className={`h-screen w-full bg-background px-7 py-6`}>
+      <div className={`h-full w-full bg-background px-7 py-6`}>
         <ChatLayout menuState={menuState} setmenuState={setmenuState}>
           <div className="w-full h-full relative">
             <ChatBar />

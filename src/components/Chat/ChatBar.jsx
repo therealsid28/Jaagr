@@ -4,7 +4,7 @@ import { Send } from 'lucide-react';
 function ChatBar() {
   return (
     <>
-      <div className="w-[70%] h-12 bg-white rounded-3xl text-sm flex justify-center font-poppins absolute bottom-14 left-1/2 -translate-x-1/2 pr-[7px] pl-9 max-md:bottom-3 max-md:w-[90%]">
+      <div className="w-[70%] h-12 bg-white rounded-3xl text-sm flex justify-center font-poppins absolute bottom-14 left-1/2 -translate-x-1/2 pr-[7px] pl-9 max-md:bottom-8 max-md:w-[90%]">
         <div className="flex items-center justify-between w-full">
           <input
             type="text"
